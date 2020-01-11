@@ -67,32 +67,42 @@ public class PlayerController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D c)
     {
         //シーン切り替え
+        //Stage１に移動
         if (c.tag == "Stage1")
         {
             SceneManager.LoadScene("2Dgame");
             stageNo = 0;
+            return;
         }
-        //Stage2
+        //Stage2に移動
         if (c.tag == "Stage2")
         {
             SceneManager.LoadScene("stage2");
             stageNo = 1;
+            return;
         }
-        //Stage3
+        //Stage3に移動
         if (c.tag == "Stage3")
         {
             SceneManager.LoadScene("stage3");
             stageNo = 2;
+            return;
         }
-        //ゲームスタート
+        //ゲームスタート処理
         if (c.tag == "GameStart")
         {
             SceneManager.LoadScene("StageSelect");
+            return;
         }
         //ゲーム終了
         if (c.tag == "End")
         {
-            Application.Quit();
+
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
         }
         
     }

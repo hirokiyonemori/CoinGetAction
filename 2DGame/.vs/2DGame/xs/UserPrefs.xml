@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{8A3A7B60-0E04-E1C4-071B-6792558F2011}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityChan2D/Scripts/UnityChan2DController.cs">
+    <Files>
+      <File FileName="Assets/UnityChan2D/Scripts/UnityChan2DController.cs" Line="78" Column="1" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="104" Column="28" />
+      <File FileName="Assets/Scripts/Game.cs" Line="69" Column="19" />
+      <File FileName="Assets/Scripts/Creator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Score.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="2DGame" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3b39a05d-02f8-4d52-9faa-4d6b656e0a4c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
